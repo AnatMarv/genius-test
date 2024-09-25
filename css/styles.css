@@ -8,6 +8,7 @@
 /* Base */
 body {
   color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -39,6 +40,7 @@ ul {
 /* Linnk */
 .link {
   color: var(--color-primary-light);
+  text-decoration: none;
 }
 
 .link:hover {
@@ -48,6 +50,8 @@ ul {
 /* Hero section */
 .hero-title {
   color: var(--color-primary-light);
+  text-align: center;
+  font-size: 128px;
 }
 .hero-title .accent {
   color: var(--color-brand-light);
@@ -61,4 +65,13 @@ ul {
 
 .section-title .accent {
   color: var(--color-brand-dark);
+}
+
+/* Traditions section */
+.traditions-text .brand {
+  color: var(--color-brand-light);
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
 }
